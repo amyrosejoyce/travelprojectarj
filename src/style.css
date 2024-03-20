@@ -11,6 +11,8 @@ body {
 .grid {
   display: grid;
   grid-gap: 64px;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
 }
 
 .img-responsive {
@@ -167,12 +169,11 @@ footer a {
     font-size: 12px;
   }
 
+  section {
+    padding: 30px;
+  }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
-  }
-
-  section {
-    padding: 30px;
   }
 }
