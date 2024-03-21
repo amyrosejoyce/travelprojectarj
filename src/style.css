@@ -54,6 +54,7 @@ nav li.active a {
   width: 100%;
   display: block;
   aspect-ratio: 1/1;
+  filter: saturate(90%);
 }
 
 .grid-2-columns {
